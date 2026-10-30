@@ -1,6 +1,6 @@
 # Samantha Bender — Multimedia Journalist
 
-A complete editorial redesign of Samantha Bender’s portfolio: warm ivory, burgundy, expressive serif typography, original photography, an arched portrait, and responsive layouts. This is a custom static website with a premium Squarespace-inspired design; it is not a native Squarespace template or an installation inside a Squarespace account.
+A complete editorial redesign of Samantha Bender’s portfolio: warm paper, rust-red accents, a personal photo treatment, original reporting photography, and quiet newspaper-style story listings. This is a custom static website with a premium Squarespace-inspired design; it is not a native Squarespace template or an installation inside a Squarespace account.
 
 ## Run locally
 
@@ -28,7 +28,7 @@ The build writes complete HTML pages into `dist/`; `npm start` serves that exist
 - Cleaner project URLs coexist with all original page slugs. The site generates **57 HTML routes**, plus a custom 404 page.
 - All articles render their original body content in HTML and support search and Reporting/Opinion filters.
 - The résumé includes the more recent source résumé image, WKBN role, education, awards, skills, notable coverage, print view, and original document. Earlier home-page experience and education remain under About → earlier experience.
-- The complete original magazine PDF and a travel photograph are bundled locally.
+- The complete original magazine PDF, a travel photograph, and Samantha’s own remote-learning photograph extracted from the magazine are bundled locally. The homepage photograph appears on PDF page 26 (printed page 25), credited to Samantha Bender in the original publication.
 - YouTube players load on request using the privacy-enhanced domain. The podcast retains its SoundCloud embed and direct link.
 - The contact form validates input and opens a populated email draft. **It does not submit to a server or send mail itself.** The visitor reviews and sends using their email application.
 
@@ -43,7 +43,8 @@ The primary contact address comes from the newer résumé (`samanthabendertv@gma
 ## Edit the design
 
 - `scripts/build.mjs`: reusable HTML layouts and page generation.
-- `src/style.css`: design tokens, desktop/mobile layouts, print stylesheet, reduced-motion handling.
+- `src/style.css`: shared layout foundations, print stylesheet, and reduced-motion handling.
+- `src/editorial.css`: the personal editorial design, photo treatments, newspaper story listings, and responsive layouts.
 - `src/app.js`: menu, filtering, search, share, player activation, print, and email-draft interactions.
 - `content/site.json`: article bodies, project descriptions, image references, original media URLs.
 - `public/assets/`: local photography, original résumé, magazine PDF, fonts, and font licenses.
@@ -56,7 +57,7 @@ The font files use the SIL Open Font License; licenses are included under `publi
 
 ## Squarespace implementation
 
-The visual system can be recreated with Squarespace 7.1 Fluid Engine sections: ivory page background, Playfair Display headings, DM Sans body, burgundy buttons, summary blocks for stories, portfolio collections for projects, and a blog collection for the 32 articles. The HTML/Node source is intended for independent static hosting; importing it does not create native editable Squarespace pages. Building inside Squarespace requires access to a Squarespace site and a separate content migration.
+The visual system can be recreated with Squarespace 7.1 Fluid Engine sections: warm paper background, Georgia headings, DM Sans body, rust-red buttons, text-first summary blocks for stories, portfolio collections for projects, and a blog collection for the 32 articles. The HTML/Node source is intended for independent static hosting; importing it does not create native editable Squarespace pages. Building inside Squarespace requires access to a Squarespace site and a separate content migration.
 
 For the optional full Chromium and accessibility audit, install tooling outside the checkout and run the saved audit while `npm start` serves the build in another terminal:
 
