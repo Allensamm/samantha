@@ -1,0 +1,53 @@
+{
+  "checks": [
+    "57 routes: HTTP 200, one main heading, no broken local images or desktop overflow",
+    "article search, empty state, reset, and opinion filter pass",
+    "project filters pass",
+    "reel play button loads original privacy-enhanced YouTube embed; remote playback not tested",
+    "contact form validates fields and explains email-app handoff",
+    "all routes fit 390px mobile viewport; menu opens and Escape closes it"
+  ],
+  "audits": [
+    {
+      "route": "/",
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "violations": []
+    },
+    {
+      "route": "/work/",
+      "violations": []
+    },
+    {
+      "route": "/resume/",
+      "violations": []
+    },
+    {
+      "route": "/articles/",
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "violations": []
+    },
+    {
+      "route": "/documentary/",
+      "violations": []
+    },
+    {
+      "route": "/podcast/",
+      "violations": []
+    },
+    {
+      "route": "/magazine/",
+      "violations": []
+    },
+    {
+      "route": "/post/elmer-s-place-receives-aid-from-barstool-fund-and-gofundme-to-stay-afloat/",
+      "violations": []
+    }
+  ],
+  "errors": []
+}
