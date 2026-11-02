@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#182c36" />
+    <title>Properties | Samantha Bender</title>
+    <meta
+      name="description"
+      content="A considered real estate website concept for Samantha Bender, focused on Columbus and Central Ohio. Illustrative properties only."
+    />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="preload"
+      href="/assets/caslon-regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="wordmark" href="/"
+        >Samantha Bender<span>CENTRAL OHIO REAL ESTATE</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="/properties/" aria-current="page">Properties</a
+        ><a href="/buying/">Buying</a><a href="/selling/">Selling</a
+        ><a href="/communities/">Communities</a
+        ><a href="/about/">Meet Samantha</a>
+      </nav>
+      <a class="header-contact" href="/contact/">Let’s connect</a
+      ><button class="menu-open" aria-haspopup="dialog">Menu</button>
+    </header>
+    <main id="main">
+      <section class="page-intro wrap">
+        <p class="eyebrow">The property collection</p>
+        <h1>Picture your <em>possibilities.</em></h1>
+        <p class="lede">
+          Explore a curated sample collection. Every home, price, specification
+          and location below is illustrative—not an active listing.
+        </p>
+      </section>
+      <section class="wrap property-section">
+        <form id="filters" class="filters">
+          <div>
+            <label for="area">Community</label
+            ><select name="area" id="area">
+              <option value="">All communities</option>
+              <option>Upper Arlington</option>
+              <option>Dublin</option>
+              <option>Clintonville</option>
+            </select>
+          </div>
+          <div>
+            <label for="max">Maximum price</label
+            ><select name="max" id="max">
+              <option value="">Any price</option>
+              <option value="600000">$600,000</option>
+              <option value="1000000">$1,000,000</option>
+              <option value="1500000">$1,500,000</option>
+            </select>
+          </div>
+          <div>
+            <label for="type">Home style</label
+            ><select name="type" id="type">
+              <option value="">All styles</option>
+              <option>House</option>
+              <option>Cottage</option>
+            </select>
+          </div>
+          <div>
+            <label for="sort">Sort by</label
+            ><select name="sort" id="sort">
+              <option value="featured">Featured</option>
+              <option value="low">Price: low to high</option>
+              <option value="high">Price: high to low</option>
+            </select>
+          </div>
+          <button class="button navy" type="submit">Apply filters</button>
+        </form>
+        <div class="results-bar">
+          <p id="result-count" aria-live="polite">4 sample homes</p>
+          <label class="saved-filter"
+            ><input type="checkbox" id="saved-only" /> Saved homes only</label
+          ><button class="reset">Clear filters</button>
+        </div>
+        <div id="property-results" class="property-grid two">
+          <article
+            class="property-card"
+            data-id="the-porch-house"
+            data-area="Upper Arlington"
+            data-price="875000"
+            data-type="House"
+          >
+            <a class="property-image" href="/properties/the-porch-house/"
+              ><img
+                class=""
+                src="/assets/hero-1800.webp"
+                srcset="
+                  /assets/hero-720.webp   720w,
+                  /assets/hero-1800.webp 1800w
+                "
+                sizes="(max-width:700px) 100vw, 65vw"
+                alt="Illustrative light-sided traditional house with a wraparound porch and broad lawn"
+                width="1800"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              /><span class="sample-label">Illustrative property</span></a
+            >
+            <div class="property-top">
+              <p>Upper Arlington <span>· Sample location</span></p>
+              <button
+                class="save"
+                data-save="the-porch-house"
+                aria-pressed="false"
+                aria-label="Save The Porch House"
+              >
+                Save
+              </button>
+            </div>
+            <h3><a href="/properties/the-porch-house/">The Porch House</a></h3>
+            <div class="property-price">
+              $875,000<span>Illustrative price</span>
+            </div>
+            <p class="property-spec">
+              4 beds &nbsp; / &nbsp; 3 baths &nbsp; / &nbsp; 2,850 sq ft
+            </p>
+          </article>
+          <article
+            class="property-card"
+            data-id="the-courtyard-house"
+            data-area="Dublin"
+            data-price="1250000"
+            data-type="House"
+          >
+            <a class="property-image" href="/properties/the-courtyard-house/"
+              ><img
+                class=""
+                src="/assets/house-one-1800.webp"
+                srcset="
+                  /assets/house-one-720.webp   720w,
+                  /assets/house-one-1800.webp 1800w
+                "
+                sizes="(max-width:700px) 100vw, 65vw"
+                alt="Illustrative contemporary white home with a swimming pool"
+                width="1800"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              /><span class="sample-label">Illustrative property</span></a
+            >
+            <div class="property-top">
+              <p>Dublin <span>· Sample location</span></p>
+              <button
+                class="save"
+                data-save="the-courtyard-house"
+                aria-pressed="false"
+                aria-label="Save The Courtyard House"
+              >
+                Save
+              </button>
+            </div>
+            <h3>
+              <a href="/properties/the-courtyard-house/">The Courtyard House</a>
+            </h3>
+            <div class="property-price">
+              $1,250,000<span>Illustrative price</span>
+            </div>
+            <p class="property-spec">
+              4 beds &nbsp; / &nbsp; 4 baths &nbsp; / &nbsp; 3,640 sq ft
+            </p>
+          </article>
+          <article
+            class="property-card"
+            data-id="the-woodland-cottage"
+            data-area="Clintonville"
+            data-price="485000"
+            data-type="Cottage"
+          >
+            <a class="property-image" href="/properties/the-woodland-cottage/"
+              ><img
+                class=""
+                src="/assets/house-three-1800.webp"
+                srcset="
+                  /assets/house-three-720.webp   720w,
+                  /assets/house-three-1800.webp 1800w
+                "
+                sizes="(max-width:700px) 100vw, 65vw"
+                alt="Illustrative red cottage beside a tree-lined lane"
+                width="1800"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              /><span class="sample-label">Illustrative property</span></a
+            >
+            <div class="property-top">
+              <p>Clintonville <span>· Sample location</span></p>
+              <button
+                class="save"
+                data-save="the-woodland-cottage"
+                aria-pressed="false"
+                aria-label="Save The Woodland Cottage"
+              >
+                Save
+              </button>
+            </div>
+            <h3>
+              <a href="/properties/the-woodland-cottage/"
+                >The Woodland Cottage</a
+              >
+            </h3>
+            <div class="property-price">
+              $485,000<span>Illustrative price</span>
+            </div>
+            <p class="property-spec">
+              3 beds &nbsp; / &nbsp; 2 baths &nbsp; / &nbsp; 1,920 sq ft
+            </p>
+          </article>
+          <article
+            class="property-card"
+            data-id="the-terrace-house"
+            data-area="Dublin"
+            data-price="995000"
+            data-type="House"
+          >
+            <a class="property-image" href="/properties/the-terrace-house/"
+              ><img
+                class=""
+                src="/assets/house-two-1800.webp"
+                srcset="
+                  /assets/house-two-720.webp   720w,
+                  /assets/house-two-1800.webp 1800w
+                "
+                sizes="(max-width:700px) 100vw, 65vw"
+                alt="Illustrative two-story home with balconies and a swimming pool"
+                width="1800"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              /><span class="sample-label">Illustrative property</span></a
+            >
+            <div class="property-top">
+              <p>Dublin <span>· Sample location</span></p>
+              <button
+                class="save"
+                data-save="the-terrace-house"
+                aria-pressed="false"
+                aria-label="Save The Terrace House"
+              >
+                Save
+              </button>
+            </div>
+            <h3>
+              <a href="/properties/the-terrace-house/">The Terrace House</a>
+            </h3>
+            <div class="property-price">
+              $995,000<span>Illustrative price</span>
+            </div>
+            <p class="property-spec">
+              4 beds &nbsp; / &nbsp; 3 baths &nbsp; / &nbsp; 3,180 sq ft
+            </p>
+          </article>
+        </div>
+        <div id="empty-results" hidden>
+          <h2>A fresh search may open a new door.</h2>
+          <p>
+            No sample homes match these filters. Try a different community or
+            price range.
+          </p>
+        </div>
+      </section>
+    </main>
+    <section class="closing">
+      <p class="eyebrow">A new chapter, thoughtfully considered.</p>
+      <h2>Let’s find your<br /><em>place in the story.</em></h2>
+      <a class="button cream" href="/contact/">Start a conversation</a>
+    </section>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <a class="wordmark" href="/"
+            >Samantha Bender<span>CENTRAL OHIO REAL ESTATE</span></a
+          >
+          <p>A personal approach.<br />A place to call your own.</p>
+        </div>
+        <div>
+          <h2>Your next move</h2>
+          <a href="/properties/">Explore properties</a
+          ><a href="/buying/">Buying a home</a
+          ><a href="/selling/">Selling a home</a
+          ><a href="/properties/?saved=1">Saved homes</a>
+        </div>
+        <div>
+          <h2>Get acquainted</h2>
+          <a href="/about/">Meet Samantha</a
+          ><a href="/communities/">Central Ohio communities</a
+          ><a href="/journal/">The journal</a
+          ><a href="/contact/">Get in touch</a>
+        </div>
+        <div>
+          <h2>A thoughtful introduction</h2>
+          <p>Columbus &amp; Central Ohio</p>
+          <p>Independent website concept.<br />Not a live brokerage website.</p>
+          <a href="/concept-notes/">Design notes &amp; image credits</a>
+        </div>
+      </div>
+      <div class="footer-base">
+        <span>© 2026 · Samantha Bender website concept</span
+        ><a href="/privacy/">Privacy</a
+        ><span>Fair housing. Equal consideration for every home seeker.</span>
+      </div>
+    </footer>
+    <aside class="concept">
+      Independent concept by Bazalel Design. All properties, prices and property
+      locations are illustrative. No active listings or brokerage affiliation
+      are represented.
+    </aside>
+    <dialog id="menu" aria-labelledby="menu-title">
+      <div class="dialog-head">
+        <h2 id="menu-title">Explore</h2>
+        <button class="menu-close">Close</button>
+      </div>
+      <nav aria-label="Mobile navigation">
+        <a class="" href="/properties/">Properties</a
+        ><a class="" href="/buying/">Buying</a
+        ><a class="" href="/selling/">Selling</a
+        ><a class="" href="/communities/">Communities</a
+        ><a class="" href="/about/">Meet Samantha</a
+        ><a class="" href="/journal/">The journal</a
+        ><a class="" href="/contact/">Contact</a>
+      </nav>
+    </dialog>
+  </body>
+</html>

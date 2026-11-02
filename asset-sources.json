@@ -1,0 +1,25 @@
+{
+  "license": "Unsplash photos used under https://unsplash.com/license. All homes and interiors are illustrative placeholders, not Samantha's listings and not representations of any named community. Portrait sourced from Samantha's supplied website for this private redesign concept; rights remain with owner.",
+  "assets": {
+    "hero": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=2000&q=90",
+    "house-one": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=2000&q=90",
+    "house-two": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=2000&q=90",
+    "house-three": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=2000&q=90",
+    "interior": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=90",
+    "kitchen": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=2000&q=90",
+    "garden": "https://images.unsplash.com/photo-1600047509782-20d39509f26d?auto=format&fit=crop&w=2000&q=90"
+  },
+  "portrait_reference": {
+    "url": "https://static.wixstatic.com/media/dcbe52_e5ad4f4cb36344e98f4732e116f9357c~mv2.jpeg",
+    "status": "identified on supplied Wix portfolio, but download blocked by HTTP 403. No portrait included."
+  },
+  "captions": {
+    "hero": "Illustrative light-sided traditional house with a wraparound porch and broad lawn",
+    "house-one": "Illustrative contemporary white home with a swimming pool",
+    "house-two": "Illustrative two-story home with balconies and a swimming pool",
+    "house-three": "Illustrative red cottage beside a tree-lined lane",
+    "interior": "Illustrative sunlit living room",
+    "kitchen": "Illustrative white and wood kitchen",
+    "garden": "Illustrative modern home opening onto a lawn"
+  }
+}

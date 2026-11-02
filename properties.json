@@ -1,0 +1,50 @@
+[
+  {
+    "id": "the-porch-house",
+    "name": "The Porch House",
+    "area": "Upper Arlington",
+    "type": "House",
+    "price": 875000,
+    "beds": 4,
+    "baths": 3,
+    "size": "2,850",
+    "photo": "hero",
+    "desc": "A welcoming porch. A little room to breathe. A home imagined around the pleasure of everyday living."
+  },
+  {
+    "id": "the-courtyard-house",
+    "name": "The Courtyard House",
+    "area": "Dublin",
+    "type": "House",
+    "price": 1250000,
+    "beds": 4,
+    "baths": 4,
+    "size": "3,640",
+    "photo": "house-one",
+    "desc": "Clean lines and generous outdoor spaces set the scene for a contemporary way of living."
+  },
+  {
+    "id": "the-woodland-cottage",
+    "name": "The Woodland Cottage",
+    "area": "Clintonville",
+    "type": "Cottage",
+    "price": 485000,
+    "beds": 3,
+    "baths": 2,
+    "size": "1,920",
+    "photo": "house-three",
+    "desc": "A quiet cottage setting, with character in the details and greenery at the doorstep."
+  },
+  {
+    "id": "the-terrace-house",
+    "name": "The Terrace House",
+    "area": "Dublin",
+    "type": "House",
+    "price": 995000,
+    "beds": 4,
+    "baths": 3,
+    "size": "3,180",
+    "photo": "house-two",
+    "desc": "Spaces for gathering and places to retreat, with a generous connection to the outdoors."
+  }
+]
